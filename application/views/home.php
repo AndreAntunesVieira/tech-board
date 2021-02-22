@@ -14,7 +14,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Bem-vindo ao nosso Kanban</h1>
 
 	<div id="body">
-		Código aqui
+		<form action="/welcome/login" method="post">
+			<input name="email">
+			<input name="password">
+			<button>oi</button>
+		</form>
 	</div>
 </div>
 
