@@ -1,8 +1,8 @@
 <?php
 
-function pre($content, $continue){
+function pre($content, $stop = 1){
 	echo '<prep>';
 	print_r($content);
 	echo '</pre>';
-	if(!$continue) exit;
+	if($stop) exit;
 }
